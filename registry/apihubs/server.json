@@ -3,12 +3,24 @@
   "name": "io.github.APIHubsRU/apihubs",
   "title": "API Hubs",
   "description": "Generate AI video, images and music. Browse models and prices; OAuth and one prepaid balance.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "websiteUrl": "https://docs.apihubs.ru/docs/mcp",
   "remotes": [
     {
       "type": "streamable-http",
       "url": "https://api.apihubs.ru/mcp"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://apihubs.ru/brand/apihubs-ru/icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    },
+    {
+      "src": "https://apihubs.ru/brand/apihubs-ru/icon-32.png",
+      "mimeType": "image/png",
+      "sizes": ["32x32"]
     }
   ]
 }

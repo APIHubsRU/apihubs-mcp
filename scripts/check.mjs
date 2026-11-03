@@ -29,6 +29,18 @@ for (const entry of marketplace.plugins) {
   // The registry namespace belongs to this brand's GitHub organization.
   assert.equal(server.name, `io.github.${ORGANIZATION}/${entry.name}`);
   assert.equal(server.websiteUrl, manifest.homepage);
+  assert.deepEqual(server.icons, [
+    {
+      src: "https://apihubs.ru/brand/apihubs-ru/icon.svg",
+      mimeType: "image/svg+xml",
+      sizes: ["any"],
+    },
+    {
+      src: "https://apihubs.ru/brand/apihubs-ru/icon-32.png",
+      mimeType: "image/png",
+      sizes: ["32x32"],
+    },
+  ]);
   assert.ok(server.description.length <= 100);
   // This public bundle is configuration only: no headers, credentials or executable hooks.
   assert.deepEqual(
