@@ -12,7 +12,7 @@
       "name": "apihubs",
       "source": "./plugins/apihubs",
       "description": "Generate AI video, images and music with API Hubs. Browse models and prices, use your prepaid balance, and fetch results through OAuth.",
-      "version": "1.0.0"
+      "version": "1.1.0"
     }
   ]
 }
